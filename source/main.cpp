@@ -137,8 +137,6 @@ int main() {
     initop();
     if (!fatInitDefault()) {
         iprintf ("\nfatinitDefault failed!\n");
-        iprintf("%sDefault %sSelected%s Selection %sSelectioned%s Title\n",COLOR_DEFAULT,COLOR_SELECTED,COLOR_SELECTION,COLOR_SELECTIONED,COLOR_TITLE);
-        iprintf("%sDefault %sSelected%s Selection %sSelectioned%s Title\n",COLOR_DEFAULT,COLOR_SELECTED,COLOR_SELECTION,COLOR_SELECTIONED,COLOR_TITLE);
         stop();
     }
     struct stat sb;
